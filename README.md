@@ -41,4 +41,22 @@ A full-stack web application that allows users to create, edit, and save text le
    ```bash
    git clone https://github.com/ani71ket/WarrantyME.git
    cd letter-editor
+    ```
+2.  Install dependencies for both frontend and backend:
+ # Frontend
+  ```bash
+cd client
+npm install
+ ```
+# Backend
+ ```bash
+cd ../server
+npm install
+ ```
+
+3. Set up environment variables:
+
+- Create .env files in both client and server directories based on .env.example
+
+- Obtain Google OAuth credentials from Google Cloud Console
    
